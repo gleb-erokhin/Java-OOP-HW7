@@ -1,6 +1,6 @@
 package finalExersise;
 
-final.exersise;
+
 
 // Создать логирование операций, для класса Calculator. Класс Calculator не должен изменится.
 public class Controller {
@@ -9,5 +9,6 @@ public class Controller {
         ViewCalculator view = new ViewCalculator(calculableFactory);
 
         view.start();
+
     }
 }

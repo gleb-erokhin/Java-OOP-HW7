@@ -11,7 +11,7 @@ public class ViewCalculator {
     }
 
     public void start() {
-        org.example.CalcLogger calcLog = new org.example.CalcLogger();
+        finalExersise.CalcLogger calcLog = new finalExersise.CalcLogger();
         calcLog.createLog("Программа запущена");
         while (true) {
 
